@@ -6,7 +6,7 @@ We will release the code and dataset in September. In the work, one of the datas
 
 Cite:
 ```
-@inproceedings{qian2021,
+@inproceedings{qian2021impchat,
      author = {Hongjin Qian and Zhicheng Dou and Yutao Zhu Yueyuan Ma and Ji-Rong Wen}, 
      title = {Learning Implicit User Profile for Personalized Retrieval-based Chatbot}, 
      booktitle = {Proceedings of the {CIKM} 2021}, 
