@@ -14,6 +14,6 @@ CUDA_VISIBLE_DEVICES=4,6 python run.py \
     --n_layer 3 \
     --max_hop 2 \
     --score_file_path score_file.txt \
-    --model_file_name weibo.MSN.2021-01-31_20:39:12.modify.pt  #${dataset}.IMPChat.pt
+    --model_file_name weibo.MSN.2021-01-31_20:38:43.modify.pt  #${dataset}.IMPChat.pt
     #--is_training False
 
