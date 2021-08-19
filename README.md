@@ -1,35 +1,28 @@
 # CIKM2021-IMPChat
-CIKM 2021: Learning Implicit User Profile for Personalized Retrieval-based Chatbot
+CIKM 2021: Learning Implicit User Profile for Personalized Retrieval-based Chatbot [pdf](https://arxiv.org/pdf/2108.07935.pdf)
 
-In the work, one of the datasets we use is the PchatbotW dataset, please refer to https://github.com/qhjqhj00/SIGIR2021-Pchatbot for details.
+In the work, one of the datasets we use is the PchatbotW dataset, please refer to this [link](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) for details.
 
 
 ### Weibo 
 Dataset:
-Link: https://pan.baidu.com/s/1NlJPrWqc0VsgDYC_o184aw  
-Password: otfo
+Baidu Disk: https://pan.baidu.com/s/1NlJPrWqc0VsgDYC_o184aw (otfo)
 
 Embedding:
-Link: https://pan.baidu.com/s/1j_aFGghg6EBYK1HjiDVMUQ
-Password: fob2
+Baidu Disk: https://pan.baidu.com/s/1j_aFGghg6EBYK1HjiDVMUQ (fob2)
 
 Answer Relevance:
-Link: https://pan.baidu.com/s/1SZnk0GLSk6flFZf_Agtbsg  
-Password: v6pv
-
+Baidu Disk: https://pan.baidu.com/s/1SZnk0GLSk6flFZf_Agtbsg (v6pv)
 
 ### Reddit:
 Dataset:
-Link: https://pan.baidu.com/s/1OW0P0vfwVd3JSgsGchsIzQ  
-Password: ds68
+Baidu Disk: https://pan.baidu.com/s/1OW0P0vfwVd3JSgsGchsIzQ (ds68)
 
 Embedding:
-Link: https://pan.baidu.com/s/1wzUZV-3FTiiyC6KefWTX-g  
-Password: nnie
+Baidu Disk: https://pan.baidu.com/s/1wzUZV-3FTiiyC6KefWTX-g (nnie)
 
 Answer Relevance:
-Link: https://pan.baidu.com/s/1eBgq6jLwj4vxyNUEjsRxUA
-Password: 8mci
+Baidu Disk: https://pan.baidu.com/s/1eBgq6jLwj4vxyNUEjsRxUA (8mci)
 
 ### Train
 
@@ -61,12 +54,10 @@ CUDA_VISIBLE_DEVICES=4,6 python run.py \
 Download the checkpoint files and place them under the checkpoint directory:
 
 Reddit
-Link: https://pan.baidu.com/s/1hh8OypwYa7WJeSINL9I9uw  
-Password: koon
+Baidu Disk: https://pan.baidu.com/s/1hh8OypwYa7WJeSINL9I9uw (koon)
 
 Weibo
-Link:
-Password:
+Baidu Disk: 
 
 ```
 ts=`date +%Y%m%d%-H%M`
