@@ -137,7 +137,7 @@ class MyDataParallel(torch.nn.DataParallel):
 def train_model():
     path = task_dic[args.task]
     X_train_utterances, X_train_responses, y_train = pickle.load(file=open(path+f"train_{args.task}.pkl", 'rb')) 
-    X_dev_utterances, X_dev_responses, y_dev = pickle.load(file=open(path+f"test_{args.task}.pkl", 'rb'))
+    X_dev_utterances, X_dev_responses, y_dev = pickle.load(file=open(path+f"dev_{args.task}.pkl", 'rb')) 
     vocab, word_embeddings = pickle.load(file=open(path + "vocab_and_embeddings.pkl", 'rb'))
 
     model = IMPChat(word_embeddings, args=args) 
