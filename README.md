@@ -1,39 +1,57 @@
 # CIKM2021-IMPChat
-CIKM 2021: Learning Implicit User Profile for Personalized Retrieval-based Chatbot
+CIKM 2021: Learning Implicit User Profile for Personalized Retrieval-based Chatbot ([pdf](https://arxiv.org/pdf/2108.07935.pdf))
 
-In the work, one of the datasets we use is the PchatbotW dataset, please refer to https://github.com/qhjqhj00/SIGIR2021-Pchatbot for details.
+In the work, one of the datasets we use is the PchatbotW dataset, please refer to this [link](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) for details.
 
+
+## Datasets
+In this paper, we evaluate IMPChat on two datasets, Weibo and Reddit:
 
 ### Weibo 
 Dataset:
-Link: https://pan.baidu.com/s/1NlJPrWqc0VsgDYC_o184aw  
-Password: otfo
+
+Baidu Disk: [Link](https://pan.baidu.com/s/1NlJPrWqc0VsgDYC_o184aw) (otfo)
+
+Google Storage:[Link](https://drive.google.com/file/d/1_XRL4Uh-izh0pYKq8ZdutJQxtsFwugVl/view?usp=sharing)
 
 Embedding:
-Link: https://pan.baidu.com/s/1j_aFGghg6EBYK1HjiDVMUQ
-Password: fob2
+
+Baidu Disk:[Link](https://pan.baidu.com/s/1j_aFGghg6EBYK1HjiDVMUQ) (fob2)
+
+Google Storage:[Link](https://drive.google.com/file/d/1E1-jQu547Qn9lWSOUXTIPJNYcA6VyMd6/view?usp=sharing)
 
 Answer Relevance:
-Link: https://pan.baidu.com/s/1SZnk0GLSk6flFZf_Agtbsg  
-Password: v6pv
 
+Baidu Disk: [Link](https://pan.baidu.com/s/1SZnk0GLSk6flFZf_Agtbsg) (v6pv)
+
+Google Storage:[Link](https://drive.google.com/file/d/1xKuUnTIdoC2U4LMnLIGU0BJ9-jnin12Z/view?usp=sharing)
 
 ### Reddit:
 Dataset:
-Link: https://pan.baidu.com/s/1OW0P0vfwVd3JSgsGchsIzQ  
-Password: ds68
+
+Baidu Disk: [Link](https://pan.baidu.com/s/1OW0P0vfwVd3JSgsGchsIzQ) (ds68)
+
+Google Storage:[Link](https://drive.google.com/file/d/141z3q1yvAgzd81oEKxQ__yPh1kTxrfIK/view?usp=sharing)
 
 Embedding:
-Link: https://pan.baidu.com/s/1wzUZV-3FTiiyC6KefWTX-g  
-Password: nnie
+
+Baidu Disk:[Link](https://pan.baidu.com/s/1wzUZV-3FTiiyC6KefWTX-g) (nnie)
+
+Google Storage:[Link](https://drive.google.com/file/d/14RgsYwFuOPCT4-3MtgDh4FvFvXzYNFWT/view?usp=sharing)
 
 Answer Relevance:
-Link: https://pan.baidu.com/s/1eBgq6jLwj4vxyNUEjsRxUA
-Password: 8mci
 
-### Train
+Baidu Disk: [Link](https://pan.baidu.com/s/1eBgq6jLwj4vxyNUEjsRxUA) (8mci)
+
+Google Storage:[Link](https://drive.google.com/file/d/1tUTpMGmNhLM9unpebR-_IfSRDX_NnaJ-/view?usp=sharing)
+
+Note that the embeddings are trained on the corresponding dataset. The Answer Relevance file contains the candidate relevances. 
+
+## Train
 
 Download the datasets and put them on the dataset directory.
+
+Run with:
 
 ```
 ts=`date +%Y%m%d%-H%M`
@@ -56,17 +74,21 @@ CUDA_VISIBLE_DEVICES=4,6 python run.py \
     --is_training True
 ```
 
-### Reproduce the results
+## Reproduce the results
 
 Download the checkpoint files and place them under the checkpoint directory:
 
-Reddit
-Link: https://pan.baidu.com/s/1hh8OypwYa7WJeSINL9I9uw  
-Password: koon
+### Reddit
+Baidu Disk: [Link](https://pan.baidu.com/s/1hh8OypwYa7WJeSINL9I9uw) (koon)
 
-Weibo
-Link:
-Password:
+Google Storage: [Link](https://drive.google.com/file/d/1b56XHaVaP71ESLaucjiC-p4K0SfKf_UP/view?usp=sharing)
+
+### Weibo
+Baidu Disk: [Link](https://pan.baidu.com/s/1E6kRENJ5cRZrJ_pmi_-r4w) (v7ck)
+
+Google Storage: [Link](https://drive.google.com/file/d/10InlyUJaxItEqntymJI3rWVwm-sxqYUj/view?usp=sharing)
+
+Run with:
 
 ```
 ts=`date +%Y%m%d%-H%M`
@@ -89,10 +111,20 @@ CUDA_VISIBLE_DEVICES=4,6 python run.py \
 ```
 
 ### Baseline models
+You can download all score files of the baseline models we use in the following links:
 
-We will provide score files for all baseline models for further study.
+Baidu Disk [Link](https://pan.baidu.com/s/1gfdDPv9f3Gs-leRLYQE6NA) (vof6)
+
+Google Storage:[Link](https://drive.google.com/file/d/1A140i9YxMDskRN-Eaad80ZhGNeZc9Hkx/view?usp=sharing)
+
+Each score file is named as {model name}.{task} (e.g. imp.weibo). You can compute the metrics by:
+
+```
+python metrics.py
+```
 
 ### Cite:
+
 ```
 @inproceedings{qian2021impchat,
      author = {Hongjin Qian and Zhicheng Dou and Yutao Zhu Yueyuan Ma and Ji-Rong Wen}, 
