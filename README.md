@@ -10,9 +10,9 @@ In this paper, we evaluate IMPChat on two datasets, Weibo and Reddit:
 ### Weibo 
 Dataset:
 
-Baidu Disk: [Link](https://pan.baidu.com/s/1NlJPrWqc0VsgDYC_o184aw) (otfo)
+Baidu Disk: [Link](https://pan.baidu.com/s/159qL40xVgNRw6WT0AldEXw) (4hv3)
 
-Google Storage:[Link](https://drive.google.com/file/d/1_XRL4Uh-izh0pYKq8ZdutJQxtsFwugVl/view?usp=sharing)
+Google Storage:[Link](https://drive.google.com/file/d/16aT4q89_g24NXCYcz9Y_i46B5JGmATsd/view?usp=sharing)
 
 Embedding:
 
@@ -29,7 +29,7 @@ Google Storage:[Link](https://drive.google.com/file/d/1xKuUnTIdoC2U4LMnLIGU0BJ9-
 ### Reddit:
 Dataset:
 
-Baidu Disk: [Link](https://pan.baidu.com/s/1OW0P0vfwVd3JSgsGchsIzQ) (ds68)
+Baidu Disk: [Link](https://pan.baidu.com/s/1id6f33kM_X4dZACwwYDaGQ) (vg1j)
 
 Google Storage:[Link](https://drive.google.com/file/d/141z3q1yvAgzd81oEKxQ__yPh1kTxrfIK/view?usp=sharing)
 
